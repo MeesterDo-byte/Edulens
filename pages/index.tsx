@@ -74,6 +74,7 @@ export default function Home() {
               <li><Link href="/interventies" className="text-gray-600 hover:text-blue-900">Interventies</Link></li>
               <li><Link href="/analyses" className="text-gray-600 hover:text-blue-900">Analyses</Link></li>
               <li><Link href="/rapportages" className="text-gray-600 hover:text-blue-900">Rapportages</Link></li>
+              <li><Link href="/maal-game" className="text-gray-600 hover:text-blue-900">Maal Game</Link></li>
             </ul>
             <div className="flex items-center gap-4">
               <div className="text-right">
@@ -209,6 +210,13 @@ export default function Home() {
                 <div className="text-4xl mb-3">📊</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Data Analyses</h3>
                 <p className="text-gray-600 text-sm">Diepgaande data analyses</p>
+              </div>
+            </Link>
+            <Link href="/maal-game" className="block">
+              <div className="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition cursor-pointer h-full">
+                <div className="text-4xl mb-3">✖️</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Maal Game</h3>
+                <p className="text-gray-600 text-sm">Oefen tafels met een korte rekengame</p>
               </div>
             </Link>
           </section>
