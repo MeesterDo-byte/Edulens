@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { authService } from '@/lib/auth'
 
 export const useAuth = () => {
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState<ReturnType<typeof authService.getCurrentUser>>(null)
   const [isLoading, setIsLoading] = useState(true)
   const router = useRouter()
 

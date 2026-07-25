@@ -82,7 +82,7 @@ export const studentService = {
 
   // Get average score
   getAverageScore: (studentId: string) => {
-    const scores = this.getScores(studentId)
+    const scores = studentService.getScores(studentId)
     if (scores.length === 0) return 0
     const sum = scores.reduce(
       (acc: number, s: Score) => acc + (s.rekenen + s.taal + s.lezen) / 3,
