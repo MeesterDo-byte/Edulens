@@ -1,6 +1,6 @@
 {
   "name": "edulens",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "next": "^14.0.0",
-    "recharts": "^2.10.3"
+    "recharts": "^2.10.3",
+    "js-cookie": "^3.0.5",
+    "date-fns": "^2.30.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
@@ -22,6 +24,7 @@
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/js-cookie": "^3.0.6",
     "eslint": "^8.54.0",
     "eslint-config-next": "^14.0.0"
   }
